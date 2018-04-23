@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+}
+
+nav{
+  margin: 0;
+  background: #ee6e73;
+  font-size: 2rem;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color:#fff;
+  box-shadow: 0 3px 13px rgba(0,0,0,0.25), 0 2px 7px rgba(0,0,0,0.22);
+}
+
+footer{
+  margin: 0;
+  background: #ee6e73;
+  font-size: 20px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color:#fff;
+  box-shadow: 0 3px 13px rgba(0,0,0,0.25), 0 2px 7px rgba(0,0,0,0.22);
+}
+
+a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cover-pizza{
+  background-image: url("https://i2-prod.dailyrecord.co.uk/incoming/article8903005.ece/ALTERNATES/s615/WP_20160923_17_57_08_Pro.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-pizza{
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.images-pizza{
+  width: 200px;
+}
